@@ -1,0 +1,4 @@
+!*/
+!/build/conf/bblayers.conf
+!/build/conf/local.conf
+!/.gitignore
