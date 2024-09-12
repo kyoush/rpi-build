@@ -1,6 +1,6 @@
-!/build/conf/bblayers.conf
-!/build/conf/local.conf
 !/.gitignore
 /build/
+!/build/conf/local.conf
+!/build/conf/bblayers.conf
 /.cache/
 .wget-hsts
