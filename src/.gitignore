@@ -4,3 +4,4 @@
 !/build/conf/bblayers.conf
 /.cache/
 .wget-hsts
+.bash_history
