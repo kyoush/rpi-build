@@ -1,0 +1,29 @@
+user@d722f8806c76:~/build$ bitbake core-image-base
+Loading cache: 100% |                                                                                                                          | ETA:  --:--:--
+Loaded 0 entries from dependency cache.
+Parsing recipes: 100% |#########################################################################################################################| Time: 0:00:26
+Parsing of 952 .bb files complete (0 cached, 952 parsed). 1903 targets, 74 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.9.1"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "ubuntu-22.04"
+TARGET_SYS           = "aarch64-poky-linux"
+MACHINE              = "raspberrypi5"
+DISTRO               = "poky"
+DISTRO_VERSION       = "5.0+snapshot-<unknown>"
+TUNE_FEATURES        = "aarch64 crypto cortexa76"
+TARGET_FPU           = ""
+meta
+meta-poky
+meta-yocto-bsp
+meta-raspberrypi     = "<unknown>:<unknown>"
+
+Sstate summary: Wanted 2704 Local 0 Mirrors 0 Missed 2704 Current 0 (0% match, 0% complete)########################################             | ETA:  0:00:00
+Initialising tasks: 100% |######################################################################################################################| Time: 0:00:04
+NOTE: Executing Tasks
+WARNING: bluez5-5.78-r0 do_fetch: Failed to fetch URL https://cdn.kernel.org/pub/linux/bluetooth/bluez-5.78.tar.xz, attempting MIRRORS if available
+NOTE: Tasks Summary: Attempted 5531 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message.
