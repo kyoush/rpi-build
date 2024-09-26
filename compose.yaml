@@ -3,10 +3,7 @@ services:
     build:
       context: .
       args:
-        UID: 1000
-        GID: 1000
         USERNAME: user
-        GROUPNAME: user
     container_name: yocto-builder
     privileged: true
     tty: true
