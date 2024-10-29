@@ -1,7 +1,0 @@
-!/.gitignore
-/build/
-!/build/conf/local.conf
-!/build/conf/bblayers.conf
-/.cache/
-.wget-hsts
-.bash_history

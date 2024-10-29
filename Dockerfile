@@ -13,7 +13,7 @@ ENV LANG	en_US.UTF-8
 ENV LANGUAGE	en_US.UTF-8
 
 ARG USERNAME
-RUN useradd -m -s /bin/bash -G ubuntu,sudo $USERNAME
+# RUN useradd -aGsudo $USERNAME
 RUN echo "$USERNAME ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 RUN mkdir -p /run/sendsigs.omit.d/rpcbind
 

@@ -1,1 +1,12 @@
+!/.gitignore
 .vscode
+
+src/.wget-hsts
+src/.bash_history
+src/.cache/
+src/.bashrc
+src/.sudo_as_admin_successful
+
+/build/
+!/build/conf/local.conf
+!/build/conf/bblayers.conf
